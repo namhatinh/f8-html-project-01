@@ -53,7 +53,17 @@ a {
 }
 
 /* header */
+.fixed-header {
+  background: #e6f0ff;
+  padding-top: 26px;
+  position: sticky;
+  top: -26px;
+  z-index: 1;
+}
+
 .header {
+  display: flex;
+  justify-content: column;
   position: relative;
   height: 100vh;
   background: #e6f0ff;
@@ -62,7 +72,7 @@ a {
 .navbar {
   display: flex;
   align-items: center;
-  padding-top: 38px;
+  padding: 12px 0;
 }
 
 .navbar ul {
@@ -652,7 +662,7 @@ a {
   width: 28px;
   height: 28px;
   border-radius: 5px;
-  background: #F9F9F9;
+  background: #f9f9f9;
 }
 
 .footer .social-link + .social-link {
