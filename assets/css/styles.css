@@ -546,7 +546,6 @@ a {
 .supsciption .body {
   display: flex;
   position: relative;
-  /* justify-content: space-around; */
   align-items: center;
   margin-top: 51px;
   height: 370px;
@@ -558,6 +557,10 @@ a {
   max-width: 100%;
   padding: 0 80px;
   width: 501px;
+}
+
+.supsciption {
+  margin-top: 101px;
 }
 
 .supsciption .info .sub-title {
@@ -584,7 +587,7 @@ a {
 }
 
 .supsciption .info a {
-  margin-top: 20px;
+  margin-top: 40px;
   color: #002366;
   text-align: center;
   font-size: 1.3rem;
@@ -602,7 +605,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 90px;
   padding: 50px 0 58px;
 }
 
